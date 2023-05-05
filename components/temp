@@ -1,0 +1,44 @@
+    //  console.log("hiiii")
+
+        // const permission = PermissionsAndroid.PERMISSIONS.PACKAGE_USAGE_STATS;
+// const granted = await PermissionsAndroid.check(permission);
+
+// if (granted) {
+//   // permission has already been granted
+//   console.log("granted")
+//   // proceed with getting the app usage stats
+// } else {
+//   // permission has not been granted
+//   console.log("Not Granted");
+//   // request the permission using PermissionsAndroid.request
+// }
+
+
+    //     try {
+    //       const granted = await PermissionsAndroid.request(
+    //         PermissionsAndroid.PERMISSIONS.PACKAGE_USAGE_STATS,
+    //         {
+    //           title: 'App Usage Permission',
+    //           message:
+    //             'This app requires access to your app usage statistics to function properly.',
+    //         },
+    //       );
+          
+    //       if (granted === PermissionsAndroid.RESULTS.GRANTED) {
+    //         const apps = await NativeModules.RNDeviceInfo.getInstalledApps();
+            
+    //         apps.forEach((app) => {
+    //           NativeModules.AppUsageStats.getUsageStats(app, (err, usageStats) => {
+    //             if (err) {
+    //               console.error(err);
+    //             } else {
+    //               console.log(`Usage stats for ${app}: ${JSON.stringify(usageStats)}`);
+    //             }
+    //           });
+    //         });
+    //       } else {
+    //         console.error('App usage permission denied.');
+    //       }
+    //     } catch (err) {
+    //       console.error(err);
+    //     }

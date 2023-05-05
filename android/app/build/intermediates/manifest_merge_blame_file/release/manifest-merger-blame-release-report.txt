@@ -1,0 +1,160 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 import com.facebook.react.modules.permissions.PermissionsPackage;
+4
+5...
+6
+7@Override protected List<ReactPackage> getPackages() { return Arrays.asList( new MainReactPackage(), new PermissionsPackage() ); }
+8-->
+9<!-- Above files are added by Gaurav -->
+10<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+11    package="com.statsproject"
+12    android:versionCode="1"
+13    android:versionName="1.0" >
+14    <!--
+15 <meta-data
+16      android:name="com.google.android.gms.version"
+17      android:value="@integer/google_play_services_version" />
+18    <meta-data
+19      android:name="com.facebook.sdk.ApplicationId"
+20      android:value="@string/facebook_app_id" />
+21    -->
+22    <uses-sdk
+23        android:minSdkVersion="21"
+23-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="31" />
+24-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:14:5-67
+26-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:14:22-64
+27    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+27-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:15:5-77
+27-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:15:22-75
+28    <!-- <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" tools:ignore="ProtectedPermissions"/> -->
+29    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+29-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:17:5-76
+29-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:17:22-74
+30    <uses-permission android:name="android.permission.CAMERA" />
+30-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:18:5-65
+30-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:18:22-62
+31    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+31-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:19:5-77
+31-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:19:22-74
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:20:7-70
+32-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:20:24-67
+33    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+33-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:21:7-79
+33-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:21:24-77
+34    <!-- Required by older versions of Google Play services to create IID tokens -->
+35    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+35-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\dell\.gradle\caches\transforms-3\89eb40e51d9a03750fe3a25c96373511\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:5-82
+35-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\dell\.gradle\caches\transforms-3\89eb40e51d9a03750fe3a25c96373511\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:22-79
+36    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+36-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\dell\.gradle\caches\transforms-3\318328e3183509abffbee01fc4efd067\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:5-110
+36-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\dell\.gradle\caches\transforms-3\318328e3183509abffbee01fc4efd067\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:22-107
+37
+38    <application
+38-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:25:5-51:19
+39        android:name="com.statsproject.MainApplication"
+39-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:26:7-38
+40        android:allowBackup="false"
+40-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:30:7-34
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.7.0] C:\Users\dell\.gradle\caches\transforms-3\63a3df243d2d102452600006144a86df\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+42        android:icon="@mipmap/ic_launcher"
+42-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:28:7-41
+43        android:label="@string/app_name"
+43-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:27:7-39
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:29:7-52
+45        android:theme="@style/AppTheme" >
+45-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:31:7-38
+46        <activity
+46-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:32:7-49:18
+47            android:name="com.statsproject.MainActivity"
+47-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:33:9-37
+48            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+48-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:35:9-118
+49            android:exported="true"
+49-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:38:9-32
+50            android:label="@string/app_name"
+50-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:34:9-41
+51            android:launchMode="singleTask"
+51-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:36:9-40
+52            android:windowSoftInputMode="adjustResize" >
+52-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:37:9-51
+53            <intent-filter>
+53-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:39:9-42:25
+54                <action android:name="android.intent.action.MAIN" />
+54-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:40:13-65
+54-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:40:21-62
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:41:13-73
+56-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:41:23-70
+57            </intent-filter>
+58            <intent-filter>
+58-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:43:9-48:25
+59                <action android:name="android.intent.action.VIEW" />
+59-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:44:13-65
+59-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:44:21-62
+60
+61                <category android:name="android.intent.category.DEFAULT" />
+61-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:45:13-72
+61-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:45:23-69
+62                <category android:name="android.intent.category.BROWSABLE" />
+62-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:46:13-74
+62-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:46:23-71
+63
+64                <data android:scheme="statsproject" />
+64-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:47:13-51
+64-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:47:19-48
+65            </intent-filter>
+66        </activity>
+67
+68        <service android:name="com.asterinet.react.bgactions.RNBackgroundActionsTask" />
+68-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:50:7-87
+68-->E:\Android\StatsProject\android\app\src\main\AndroidManifest.xml:50:16-84
+69
+70        <activity
+70-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dell\.gradle\caches\transforms-3\37f8ffa3ec488a48f4844b49ea25bc5d\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+71            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+71-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dell\.gradle\caches\transforms-3\37f8ffa3ec488a48f4844b49ea25bc5d\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dell\.gradle\caches\transforms-3\37f8ffa3ec488a48f4844b49ea25bc5d\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dell\.gradle\caches\transforms-3\37f8ffa3ec488a48f4844b49ea25bc5d\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+74
+75        <meta-data
+75-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\dell\.gradle\caches\transforms-3\c0b86808731a4a9f10bb9c1bec75b274\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+76            android:name="com.google.android.gms.version"
+76-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\dell\.gradle\caches\transforms-3\c0b86808731a4a9f10bb9c1bec75b274\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+77            android:value="@integer/google_play_services_version" />
+77-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\dell\.gradle\caches\transforms-3\c0b86808731a4a9f10bb9c1bec75b274\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+78
+79        <provider
+79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+81            android:authorities="com.statsproject.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dell\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dell\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dell\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+89        </provider>
+90    </application>
+91
+92</manifest>
