@@ -35,15 +35,6 @@ and much more.....
 Available soon....
 
 <h2>Apk available at:</h2>
-https://drive.google.com/file/d/1UdCl4nHxspFbt4-Ycfb9msIPE4r2eKlt/view?usp=sharing
+<!-- https://drive.google.com/file/d/1UdCl4nHxspFbt4-Ycfb9msIPE4r2eKlt/view?usp=sharing -->
 
-<button class="btn btn-6 btn-6d">Button</button>
-/* Button 6d */
-.btn-6d {
-	border: 2px dashed #226fbe;
-}
-
-.btn-6d:hover {
-	background: transparent;
-	color: #226fbe;
-}
+<a href="https://drive.google.com/file/d/1UdCl4nHxspFbt4-Ycfb9msIPE4r2eKlt/view?usp=sharing" class="button pill">Download Now</a>
