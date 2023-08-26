@@ -31,9 +31,23 @@ Introversion
 and much more.....
 
 
-<h2>Some ScreenShot</h2>
-Available soon....
+<h2>Some ScreenShot:</h2>
+<div align="center">
+  <img src="regulation ss/WhatsApp Image 2023-06-04 at 7.58.36 PM.jpeg"  height="400" width="200"></img></br>
+  
+  <div margin-top="120">
+  <img src="regulation ss/WhatsApp Image 2023-06-04 at 7.58.36 PM (1).jpeg"  height="400" width="200"></img>
+  <img src="regulation ss/WhatsApp Image 2023-06-04 at 7.58.38 PM (1).jpeg"  height="400" width="200"></img>
+  <img src="regulation ss/WhatsApp Image 2023-06-04 at 7.58.38 PM (2).jpeg"  height="400" width="200"></img>
+  </div>
 
+  <div margin="20">
+  <img src="regulation ss/WhatsApp Image 2023-06-04 at 7.58.39 PM (1).jpeg" height="400" width="200"></img>
+  <img src="regulation ss/WhatsApp Image 2023-06-04 at 7.58.39 PM.jpeg" height="400" width="200"></img>
+  <img src="regulation ss/INSTAGRAM 2.png" height="400" width="200"></img>
+  <img src="regulation ss/WhatsApp Image 2023-06-04 at 8.07.21 PM.jpeg" height="400" width="200"></img>
+  </div>
+  </div>
 <h2>Apk available at:</h2>
 <!-- https://drive.google.com/file/d/1UdCl4nHxspFbt4-Ycfb9msIPE4r2eKlt/view?usp=sharing -->
 
